@@ -11,7 +11,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class SRCardView: UIView ,HighlightAnimatable{
+open class SRCardView: UIView ,HighlightAnimatable{
     
     @IBInspectable var cornerRadius: CGFloat = 15
     @IBInspectable var shadowOffsetWidth: Int = 0
@@ -19,7 +19,7 @@ class SRCardView: UIView ,HighlightAnimatable{
     @IBInspectable var shadowColor: UIColor? = UIColor.black
     @IBInspectable var shadowOpacity: Float = 0.3
 
-    override func layoutSubviews(){
+    open override func layoutSubviews(){
         layer.cornerRadius = cornerRadius
         let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
         layer.masksToBounds = false
@@ -34,22 +34,22 @@ class SRCardView: UIView ,HighlightAnimatable{
         highlight(true)
      }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         highlight(false)
     }
     
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    open override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         highlight(true)
     }
     
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    open override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesCancelled(touches, with: event)
         highlight(true)
     }
