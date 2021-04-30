@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-@IBDesignable
+
 public class CardView: UIView{
 
     @IBInspectable var cornerRadius: CGFloat = 15
