@@ -10,8 +10,8 @@
 		6C5AA1F9263BFA79009F9EE3 /* SRCardView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5AA1EF263BFA79009F9EE3 /* SRCardView.framework */; };
 		6C5AA1FE263BFA79009F9EE3 /* SRCardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AA1FD263BFA79009F9EE3 /* SRCardViewTests.swift */; };
 		6C5AA200263BFA79009F9EE3 /* SRCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5AA1F2263BFA79009F9EE3 /* SRCardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C5AA20A263BFCF7009F9EE3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AA209263BFCF7009F9EE3 /* CardView.swift */; };
 		6C5AA248263C2A86009F9EE3 /* HighlightAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AA247263C2A86009F9EE3 /* HighlightAnimatable.swift */; };
+		6C5AA24A263C5C5D009F9EE3 /* SRCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AA249263C5C5D009F9EE3 /* SRCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,8 @@
 		6C5AA1F8263BFA79009F9EE3 /* SRCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5AA1FD263BFA79009F9EE3 /* SRCardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRCardViewTests.swift; sourceTree = "<group>"; };
 		6C5AA1FF263BFA79009F9EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C5AA209263BFCF7009F9EE3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6C5AA247263C2A86009F9EE3 /* HighlightAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightAnimatable.swift; sourceTree = "<group>"; };
+		6C5AA249263C5C5D009F9EE3 /* SRCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 			children = (
 				6C5AA1F2263BFA79009F9EE3 /* SRCardView.h */,
 				6C5AA1F3263BFA79009F9EE3 /* Info.plist */,
-				6C5AA209263BFCF7009F9EE3 /* CardView.swift */,
 				6C5AA247263C2A86009F9EE3 /* HighlightAnimatable.swift */,
+				6C5AA249263C5C5D009F9EE3 /* SRCardView.swift */,
 			);
 			path = SRCardView;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C5AA248263C2A86009F9EE3 /* HighlightAnimatable.swift in Sources */,
-				6C5AA20A263BFCF7009F9EE3 /* CardView.swift in Sources */,
+				6C5AA24A263C5C5D009F9EE3 /* SRCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
