@@ -14,19 +14,19 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1.0"
 
   # 3
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   # 4
   spec.author             = { "Siddhesh Redkar" => "siddhesh.redkar@nium.com" }
   
   # 5
-  spec.homepage     = "https://github.com/siddheshredkar/SBAlertView"
+  spec.homepage     = "https://github.com/siddheshredkar/SRCardView"
   # spec.social_media_url   = "https://twitter.com/Siddhesh Redkar"
   
 
   # 6
 
-  spec.source       = { :git => "https://github.com/siddheshredkar/SBAlertView.git",
+  spec.source       = { :git => "https://github.com/siddheshredkar/SRCardView.git",
                         :tag => "#{spec.version}" }
 
   # 7
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "SRCardView/**/*.{swift}"
   
   # 9
-  spec.resources = "SRCardView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  #spec.resources = "SRCardView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # 10
   spec.swift_version = "5"
